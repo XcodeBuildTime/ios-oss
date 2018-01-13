@@ -617,6 +617,8 @@
 		B74865D6200A7B1C00EDF446 /* Library.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A755113C1C8642B3005355CF /* Library.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B74865D9200A7B3D00EDF446 /* KsApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01587501EEB2DE4006E7684 /* KsApi.framework */; };
 		B74865DA200A7B3D00EDF446 /* KsApi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D01587501EEB2DE4006E7684 /* KsApi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B75064E1200A94F1005449A9 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75064E0200A94F1005449A9 /* Secrets.swift */; };
+		B75064E2200A94F1005449A9 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75064E0200A94F1005449A9 /* Secrets.swift */; };
 		B79CAEBF200A81B900EF45D7 /* String+base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CAEBE200A81B900EF45D7 /* String+base64.swift */; };
 		D015882B1EEB2ED7006E7684 /* NSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015876A1EEB2ED6006E7684 /* NSURLSession.swift */; };
 		D015882D1EEB2ED7006E7684 /* BasicHTTPAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015876D1EEB2ED6006E7684 /* BasicHTTPAuth.swift */; };
@@ -770,8 +772,6 @@
 		D0158A321EEB30A2006E7684 /* User.StatsTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01588181EEB2ED7006E7684 /* User.StatsTemplates.swift */; };
 		D0158A331EEB30A2006E7684 /* UserTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01588191EEB2ED7006E7684 /* UserTemplates.swift */; };
 		D0158A4D1EEB3220006E7684 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01587761EEB2ED6006E7684 /* MockService.swift */; };
-		D0158A521EEB3730006E7684 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0158A511EEB3730006E7684 /* Secrets.swift */; };
-		D0158A531EEB3734006E7684 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0158A511EEB3730006E7684 /* Secrets.swift */; };
 		D01673A31E3A2CC800651DBA /* LiveStreamEventsEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01673A21E3A2CC800651DBA /* LiveStreamEventsEnvelope.swift */; };
 		D01673DF1E3A354B00651DBA /* LiveStreamEventsEnvelopeTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01673DE1E3A354B00651DBA /* LiveStreamEventsEnvelopeTemplates.swift */; };
 		D01673E41E3A35ED00651DBA /* LiveStreamEventsEnvelopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01673E21E3A35E700651DBA /* LiveStreamEventsEnvelopeTests.swift */; };
@@ -2166,6 +2166,7 @@
 		A7FA38A31D9068940041FC9C /* PledgeTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PledgeTitleCell.swift; sourceTree = "<group>"; };
 		A7FA38D81D9068AD0041FC9C /* RewardsTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsTitleCell.swift; sourceTree = "<group>"; };
 		A7FC8C051C8F1DEA00C3B49B /* CircleAvatarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleAvatarImageView.swift; sourceTree = "<group>"; };
+		B75064E0200A94F1005449A9 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		B79CAEBE200A81B900EF45D7 /* String+base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+base64.swift"; sourceTree = "<group>"; };
 		D01587501EEB2DE4006E7684 /* KsApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KsApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01587531EEB2DE4006E7684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2350,7 +2351,6 @@
 		D01588281EEB2ED7006E7684 /* ServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTests.swift; sourceTree = "<group>"; };
 		D01588291EEB2ED7006E7684 /* ServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
 		D015882A1EEB2ED7006E7684 /* ServiceTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTypeTests.swift; sourceTree = "<group>"; };
-		D0158A511EEB3730006E7684 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = "Frameworks/native-secrets/ios/Secrets.swift"; sourceTree = "<group>"; };
 		D01673A21E3A2CC800651DBA /* LiveStreamEventsEnvelope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveStreamEventsEnvelope.swift; sourceTree = "<group>"; };
 		D01673DE1E3A354B00651DBA /* LiveStreamEventsEnvelopeTemplates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveStreamEventsEnvelopeTemplates.swift; sourceTree = "<group>"; };
 		D01673E21E3A35E700651DBA /* LiveStreamEventsEnvelopeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveStreamEventsEnvelopeTests.swift; sourceTree = "<group>"; };
@@ -2595,7 +2595,7 @@
 		802800561C88F62500141235 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
-				D0158A511EEB3730006E7684 /* Secrets.swift */,
+				B75064E0200A94F1005449A9 /* Secrets.swift */,
 				802800571C88F64D00141235 /* Base.xcconfig */,
 			);
 			name = Configs;
@@ -5225,7 +5225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B76C041E23E4B500C8E312 /* MockLiveStreamService.swift in Sources */,
-				D0158A521EEB3730006E7684 /* Secrets.swift in Sources */,
+				B75064E2200A94F1005449A9 /* Secrets.swift in Sources */,
 				D0C5957F1E49C835003A29EC /* LiveStreamSubscribeEnvelope.swift in Sources */,
 				A7BA55021E1E9D4B00E54377 /* LiveStreamEvent.OpenTokLenses.swift in Sources */,
 				A7BA55071E1E9DEE00E54377 /* LiveStreamEventTemplates.swift in Sources */,
@@ -5582,7 +5582,7 @@
 				D015883D1EEB2ED7006E7684 /* Route.swift in Sources */,
 				D0158A2B1EEB30A2006E7684 /* UpdateDraftTemplates.swift in Sources */,
 				D015888F1EEB2ED7006E7684 /* CreatePledgeEnvelopeLenses.swift in Sources */,
-				D0158A531EEB3734006E7684 /* Secrets.swift in Sources */,
+				B75064E1200A94F1005449A9 /* Secrets.swift in Sources */,
 				D01588A71EEB2ED7006E7684 /* Project.MemberDataLenses.swift in Sources */,
 				D015885B1EEB2ED7006E7684 /* Comment.swift in Sources */,
 				D01588C71EEB2ED7006E7684 /* RewardItemLenses.swift in Sources */,
